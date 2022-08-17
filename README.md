@@ -15,6 +15,7 @@ Create a workflow `.yml` file in your repositories `.github/workflows` directory
 - `path` - [**required**] Path to the generated kover report xml file
 - `token` - [**required**] Github personal token to add commits to the pull request
 - `title` - [*optional*] Title for the pull request comment
+- `update-comment` - [*optional* (default: `false`)] Update the coverage report comment instead of creating a new one. Requires `title` to be set.
 - `min-coverage-overall` - [*optional*] The minimum code coverage that is required to pass for overall project
 - `min-coverage-changed-files` - [*optional*] The minimum code coverage that is required to pass for changed files
 
